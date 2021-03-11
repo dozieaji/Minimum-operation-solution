@@ -1,13 +1,29 @@
 
 
-ALGORITHM	MINIMIUM OPERATIONS TO REDUCE X TO ZERO
+MINIMIUM OPERATIONS TO REDUCE X TO ZERO
+
+<h1>Problem Statement</h1>
+
+Given Integer Arrays = nums<br><br>
+Given An Integer = x
+
+a. Remove the leftmost element from the array nums<br>
+			<center>	OR </center><br>
+b. remove the rightmost element from the array nums<br>
+
+c. subtract the it's value from x.<br>
+
+Return the minimium number of operations to reduce x to exactly  0 if it's possible otherwise return -1.
+<br>
+
+<h1> ALGORITHM:	</h1>
 
 INPUT:	Integer array nums & Integer x. 
 	
 	(int[] nums, int x)
 
-OUTPUT:	Result of minimum number of operations to reduce x to exactly  0 if it's 
-		possible otherwise return -1
+OUTPUT:	Result of minimum number of operations to reduce x to exactly  0<br>
+		 if it's possible otherwise return -1
 	
 STEP 1:	START
 
